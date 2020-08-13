@@ -1,5 +1,5 @@
 {
-  "name": "bindings",
+  "name": "@brightproductions/bindings",
   "description": "Helper module for loading your native module's .node file",
   "keywords": [
     "native",
@@ -14,12 +14,15 @@
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/node-bindings.git"
+    "url": "git://github.com/markwbrown/node-bindings.git"
   },
   "main": "./bindings.js",
   "bugs": {
-    "url": "https://github.com/TooTallNate/node-bindings/issues"
+    "url": "https://github.com/markwbrown/node-bindings/issues"
   },
-  "homepage": "https://github.com/TooTallNate/node-bindings",
-  "license": "MIT"
+  "homepage": "https://github.com/markwbrown/node-bindings",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
